@@ -1,0 +1,22 @@
+create table todo
+(
+id bigint auto_increment
+primary key,
+age int null,
+name varchar(255) null,
+surname varchar(255) null
+)
+engine=InnoDB
+;
+
+create table users
+(
+	id bigint auto_increment
+		primary key,
+	age int null,
+	name varchar(255) null,
+	surname varchar(255) null
+)
+	engine=InnoDB
+;
+
